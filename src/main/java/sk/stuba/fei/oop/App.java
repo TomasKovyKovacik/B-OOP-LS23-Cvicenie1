@@ -2,11 +2,16 @@ package sk.stuba.fei.oop;
 
 public class App {
     public static void main(String[] args) {
-        int cislo = Integer.parseInt(args[0]);
-        if (cislo == 5) {
-            System.out.println("cislo je 5");
-        } else {
-            System.out.println("cislo nie je 5");
+        int cislo = 2;
+        switch (cislo) {
+            case 1:
+                System.out.println("nieco");
+                break;
+            case 2:
+                System.out.println("nieco 2");
+                break;
+            default:
+                System.out.println("ani jedno z toho");
         }
     }
 }
